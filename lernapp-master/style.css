@@ -1,0 +1,424 @@
+
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+
+  *{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins';
+    text-decoration: none;
+    list-style: none;
+}
+
+                                            /* header */
+
+
+header{
+    position: fixed;
+    height: 113px;
+    width: 100%;
+    background-color: #202137;
+
+}
+
+header img{
+    margin: 2px 42px;
+    height: auto;
+    width: 110px;
+}
+
+
+header a{
+    padding: 10px;
+    margin-top: 27px;
+    font-size: 21px;
+    float: right;
+    margin-right: 20px;
+}
+
+header .login , header .reg{
+    display: flex;
+    align-items: center;
+}
+
+header .login {
+    color: #f0d73b;
+}
+
+header .reg{
+    color: #d44a50;
+}
+
+
+                                /* Navigation */
+
+nav {
+  padding-right: 1px;
+    margin-top: 113px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%; 
+    width: 200px; 
+    background-color: #262626;
+    
+}
+
+.überschrift {
+    padding-top: 15px;
+    /* padding-bottom: 10px; */
+    padding-left: 50px;
+    color: wheat;
+    font-size: 22px;
+    /* text-decoration: underline; */
+}
+
+nav ul ul li a{
+    list-style: none;
+    font-size: 22px;
+    color: rgb(202, 202, 202);
+    padding-left: 55px ;
+}
+nav ul ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+nav ul ul li  {
+    padding-top: 0;
+}
+
+
+
+
+
+main {
+    padding-top: 113px;
+    padding-left: 200px ;
+}
+
+h1{
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+.bestenliste{
+  	float: left;
+    border-radius: 35px;
+    margin-top: 70px;
+    margin-left: 110px;
+    width: 450px;
+    height: 500px;
+    background-color: #d9d9d9;  
+
+}
+
+.bestenliste p {
+    font-size: 24px;
+    padding-left: 170px;
+    padding-top: 20px;
+
+}
+
+.kurse{
+  
+    border-radius: 35px;
+    margin-top: 70px;
+    margin-left: 750px;
+    width: 450px;
+    height: 500px;
+    background-color: #d9d9d9;
+}
+
+.kurse span {
+    font-size: 24px;
+    padding-left: 120px;
+    padding-top: 14px;
+}
+
+#aktueller-kurs img{
+    height: auto;
+    width: 190px;
+    margin-left: 140px;
+    margin-top: 14px;
+}
+
+#aktueller-kurs .poppins-light{
+      font-size: 20px;
+      margin-left: 140px;
+}
+
+.kurs-text{
+    font-size: 34px;
+    text-align: center;   
+}
+
+.kurse button{
+    height: 50px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 110px;
+    border: none;
+    border-radius: 35px;
+    background-color: #202137;
+
+}
+
+.kurse button a{
+    padding: 20px  50px;
+    color: white;
+    font-size: 17px;
+}
+
+
+
+.no-nav{
+  padding-left: 0;
+  height: 100vh;
+}
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* width: 100vh; */
+}
+
+/* Regestir Form */
+
+.register{
+  height: 80%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30px;
+  background-color: #d9d9d9;
+  border-radius: 35px;
+}
+
+.register p{
+  text-align: center;
+}
+
+.poppins-bold{        /* h2 */
+  padding-top: 70px;
+  text-align: center;
+  font-size: 32px;
+}
+
+
+#reg-info {
+  display: flex;
+  height: 80%;
+  justify-content: center; 
+  align-items: center; 
+}
+
+#reg-info input {
+  display: block;
+  margin-bottom: 50px;
+  width: 900px;
+  height: 50px;
+  border-radius: 35px;
+  border: none;
+}
+
+#reg-info input::placeholder{
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+
+      /* Register Button */
+
+.button-container {
+  /* margin-top: 0px; */
+  text-align: center;
+}
+
+.reg-submit{
+  border: none;
+  width: 250px;
+  height: 60px;
+  background-color: #202137;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.reg-submit a{
+  color: white;
+}
+
+/* LOGIN */
+
+.login-options{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.login-options a {
+  color: #5c52b0;
+}
+
+
+
+/* Footer */
+
+footer{
+  width: 100%;
+  height: 30px;
+  margin-top: auto;
+  background-color: #262626;
+}
+
+footer a{
+  color: white;
+  padding-right: 20px;
+  float: right;
+}
+
+
+                                              /* fortschritt */
+
+
+#container{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#box{
+  width: 380px;
+  height: 450px;
+  margin: 20px;
+
+
+  background-color: #d9d9d9;
+  border-radius: 35px;
+}
+
+.box1{
+  background-color: #d9d9d9;
+}
+.box2{
+  background-color: #d9d9d9;
+}
+.box3{
+  background-color: #d9d9d9;
+}
+
+
+
+
+/* footer{
+    background-color: #202137;
+    position: sticky;
+} */
+
